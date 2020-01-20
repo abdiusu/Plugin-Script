@@ -1,0 +1,99 @@
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.jkoding-comment,
+.jkoding-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.jkoding-variable,
+.jkoding-template-variable,
+.jkoding-tag,
+.jkoding-name,
+.jkoding-selector-id,
+.jkoding-selector-class,
+.jkoding-regexp,
+.jkoding-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.jkoding-number,
+.jkoding-built_in,
+.jkoding-builtin-name,
+.jkoding-literal,
+.jkoding-type,
+.jkoding-params,
+.jkoding-meta,
+.jkoding-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.jkoding-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.jkoding-string,
+.jkoding-symbol,
+.jkoding-bullet,
+.jkoding-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.jkoding-title,
+.jkoding-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.jkoding-keyword,
+.jkoding-selector-tag {
+  color: #dcc6e0;
+}
+
+.jkoding {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.jkoding-emphasis {
+  font-style: italic;
+}
+
+.jkoding-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .jkoding-addition,
+  .jkoding-attribute,
+  .jkoding-built_in,
+  .jkoding-builtin-name,
+  .jkoding-bullet,
+  .jkoding-comment,
+  .jkoding-link,
+  .jkoding-literal,
+  .jkoding-meta,
+  .jkoding-number,
+  .jkoding-params,
+  .jkoding-string,
+  .jkoding-symbol,
+  .jkoding-type,
+  .jkoding-quote {
+        color: highlight;
+    }
+
+    .jkoding-keyword,
+    .jkoding-selector-tag {
+        font-weight: bold;
+    }
+}
