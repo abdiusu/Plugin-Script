@@ -1,0 +1,95 @@
+.BoxStarku {
+    height: 120px;
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+    border-radius: 20px;
+    display: block;
+}
+#starRate1, #starRate2, #starRate3, #starRate4, #starRate5 {
+    box-shadow: 0 0 2px 0px black;
+    border-radius: 20px;
+    height: 15px;
+    background-color: #77757912;
+    width: 100%;
+    position: absolute;
+}
+span#starRateSum {
+    font-size: 50px;
+}
+.areBoxRateStar {
+    box-shadow: 0 0 5px 0px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 2%;
+    height: 120px;
+    width: 90%;
+}
+.RateStarColor {
+    float: left;
+    width: 60%;
+    left: 0;
+    text-align: left;
+}
+#RangeColorStar1, #RangeColorStar2, #RangeColorStar3, #RangeColorStar4, #RangeColorStar5 {
+    border-radius: 20px;
+    height: 15px;
+    background-color: #32f721;
+    position: absolute;
+}
+.AreaColorRangeStar {
+    position: relative;
+}
+span.KetStarku {
+    padding: 0 10px;
+}
+span.ButtonIconStarku {
+    color: #c3c5b3;
+    font-size: 35px;
+    cursor: pointer;
+}
+.AreaBoxInputRatingStar {
+    padding: 15px 10px;
+    text-align: center;
+}
+.TitleInputRate {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+span#starRateTotal {
+    margin-left: 5px;
+}
+i.fas.fa-users {
+    color: #5084e2;
+}
+.BoxSumku {
+    margin-top: 20px;
+}
+#jkodingXYZ {
+text-align: center;
+display: flow-root;
+}
+.StarRateRange {
+    font-size: 13px;
+    color: #8c8e7c;
+}
+
+.star-rating {
+  line-height:32px;
+  font-size:5em;
+}
+span.AfterRateStar {
+    font-size: 20px;
+}
+
+.star-rating .fa-star{
+    color: #9eaba1;
+}
+.NotifEndRate{
+font-size: 25px;
+}
+.none {
+  display:none;
+}
